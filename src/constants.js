@@ -1,0 +1,2 @@
+exports.BRIDGE_ID = "001788FFFE627996"
+exports.USERNAME = "pnr2xOV1jZkec7aOxouHV9OxoLN5ku3dGcKScBbs"

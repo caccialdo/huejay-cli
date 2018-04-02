@@ -1,0 +1,20 @@
+{
+  "name": "huejay-cli",
+  "license": "MIT",
+  "bin": {
+    "hue": "bin/run.sh"
+  },
+  "scripts": {
+    "cli": "node src/index.js",
+    "lint": "eslint --fix $(find src -name \"*.js\")"
+  },
+  "dependencies": {
+    "huejay": "^1.8.0",
+    "js-yaml": "^3.11.0",
+    "lodash": "^4.17.5",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
